@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #005fa3;
+}
+
+/* Navigation */
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #0077cc;
+  padding: 8px 12px;
+  border: 1px solid #0077cc;
+  border-radius: 4px;
+}
+
+.navigation a:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Cards */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #eee;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
