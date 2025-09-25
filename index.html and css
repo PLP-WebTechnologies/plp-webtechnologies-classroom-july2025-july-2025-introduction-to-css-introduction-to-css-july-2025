@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Demo</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <h1 class="logo">My Website</h1>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h2>Welcome to the Box Model Example</h2>
+    <p>This page demonstrates margins, padding, borders, and background colors.</p>
+    <button class="cta-btn">Learn More</button>
+  </header>
+
+  <!-- Container with Cards -->
+  <section class="container">
+    <div class="card">
+      <h3>Card One</h3>
+      <p>This card shows padding inside the border and margin outside.</p>
+    </div>
+    <div class="card">
+      <h3>Card Two</h3>
+      <p>Each card has its own margin to create space between elements.</p>
+    </div>
+    <div class="card">
+      <h3>Card Three</h3>
+      <p>The background color makes the box model easy to visualize.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 My Website | Built with HTML & CSS</p>
+  </footer>
+</body>
+</html>
+
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  margin: 0;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #e0f7fa;
+  border: 2px solid #00796b;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 15px;
+}
+
+.cta-btn {
+  background-color: #00796b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #004d40;
+}
+
+/* Container and Cards */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff3e0;
+  border: 2px solid #ff9800;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
