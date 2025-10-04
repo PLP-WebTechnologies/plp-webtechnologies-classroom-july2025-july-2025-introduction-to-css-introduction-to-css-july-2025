@@ -1,0 +1,91 @@
+/* ========== Base Styles ========== */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* ========== Header ========== */
+.main-header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar li {
+  margin: 0 15px;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ========== Intro Section ========== */
+.intro-section {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ddd;
+}
+
+/* ========== Card Section ========== */
+.card-container {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #e3f2fd;
+  padding: 15px;
+  border: 2px solid #90caf9;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+/* ========== Button ========== */
+.cta-button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #1565c0;
+}
+
+/* ========== Footer ========== */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* ========== Box Model Visual Aid ========== */
+/* Optional: Uncomment to visualize the box model */
+/*
+* {
+  outline: 1px solid red;
+}
+*/
