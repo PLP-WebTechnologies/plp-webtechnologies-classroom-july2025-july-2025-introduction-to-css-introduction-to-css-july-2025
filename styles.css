@@ -1,0 +1,132 @@
+/* ==========================
+   GLOBAL SETTINGS
+   ========================== */
+* {
+    box-sizing: border-box; /* Includes padding & borders in total size */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ==========================
+   CONTAINER
+   ========================== */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ==========================
+   HEADER
+   ========================== */
+.main-header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.nav-bar {
+    margin-top: 10px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 6px 10px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.nav-bar a:hover {
+    border-color: white;
+    border-radius: 4px;
+}
+
+/* ==========================
+   INTRO SECTION
+   ========================== */
+.intro {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.intro h2 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+.cta-btn {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #023e8a;
+}
+
+/* ==========================
+   CARD SECTION
+   ========================== */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #0077b6;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 30%;
+    min-width: 250px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+/* ==========================
+   FOOTER
+   ========================== */
+.main-footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
