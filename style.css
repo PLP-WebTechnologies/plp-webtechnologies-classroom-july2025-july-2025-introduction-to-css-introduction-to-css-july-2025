@@ -1,0 +1,112 @@
+/* ===============================
+   Global Styles
+================================= */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   Header
+================================= */
+.header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 4px solid #2c6ebd;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* ===============================
+   Navigation
+================================= */
+.navbar {
+  background-color: #2c6ebd;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #1f4f85;
+}
+
+/* ===============================
+   Main Content
+================================= */
+.content {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #4a90e2;
+}
+
+.highlight {
+  background-color: #e8f1fd;
+  border-color: #4a90e2;
+}
+
+/* ===============================
+   Buttons
+================================= */
+.btn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #357ab8;
+}
+
+/* ===============================
+   Footer
+================================= */
+.footer {
+  text-align: center;
+  background-color: #2c6ebd;
+  color: white;
+  padding: 15px;
+  border-top: 4px solid #1f4f85;
+}
+
+/* ===============================
+   Box Model Visualization
+================================= */
+/* Uncomment to visualize boxes */
+/*
+* {
+  outline: 1px dashed red;
+}
+*/
