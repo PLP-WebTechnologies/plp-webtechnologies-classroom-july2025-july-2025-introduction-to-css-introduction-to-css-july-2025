@@ -1,0 +1,86 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #003060;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+
+/* Main Sections */
+main section {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+/* Cards */
+.card {
+  background-color: #e6f2ff;
+  border: 2px solid #99ccff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #003060;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #004080;
+  color: white;
+  margin-top: 40px;
+  border-top: 2px solid #003060;
+}
